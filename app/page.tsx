@@ -32,6 +32,7 @@ import { getCurrentUser, clearCurrentUser, saveSearch } from "@/lib/storage"
 import { createUser, signInUser, canUserSearch, incrementUserSearches } from "@/lib/auth"
 import { generateBusinessNames, checkNameAvailability } from "@/lib/name-checker"
 import { trackSignup, trackLogin, trackSearch, trackUpgrade, trackNameClaim } from "@/lib/analytics"
+import Image from "next/image"
 
 // Simple payment links - redirect to homepage
 const PAYMENT_LINKS = {
@@ -958,12 +959,12 @@ export default function HomePage() {
       {/* Header */}
       <header className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
-              <Sparkles className="w-5 h-5 text-white" />
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 relative">
+              <Image src="/logo.png" alt="Snatch That Name Logo" width={40} height={40} className="object-contain" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Gimmie
+              Gimmie That Name
             </span>
           </div>
           <div className="flex items-center gap-3">
@@ -1295,7 +1296,7 @@ export default function HomePage() {
           </div>
           <h2 className="text-3xl font-bold mb-4">Ready to find your perfect business name?</h2>
           <p className="text-gray-600 mb-6">
-            Join thousands of entrepreneurs who've found their ideal business name with Gimmie.
+            Join thousands of entrepreneurs who've found their ideal business name with Gimmie That Name.
             <strong> Over 500 names claimed just this week!</strong>
           </p>
           <Button

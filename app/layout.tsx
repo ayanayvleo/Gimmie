@@ -8,10 +8,10 @@ import Script from "next/script"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Snatch That Name - Find Available Business Names",
+  title: "Gimmie That Name - Find Available Business Names",
   description:
     "Find legitimate, available business names that aren't taken. Check domains, trademarks, and business registrations instantly.",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
