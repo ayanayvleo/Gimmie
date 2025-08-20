@@ -1,30 +1,122 @@
-# Snatch business name finder
+# Snatch Business Name Finder
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A powerful business name generator and availability checker to help entrepreneurs find the perfect name for their venture. Discover unique, brandable names and check domain availability instantly.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ayanayvleos-projects/v0-snatch-business-name-finder)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/xt1dNduYHtt)
+## Features
 
-## Overview
+- 🎯 AI-powered business name generation
+- 🔍 Real-time domain availability checking
+- 💡 Creative and brandable name suggestions
+- 🚀 Industry-specific name recommendations
+- 📱 Mobile-responsive design
+- ⚡ Fast and intuitive interface
+- 🌙 Dark/light mode support
+- 💾 Save and favorite name ideas
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tech Stack
 
-## Deployment
+- **Framework:** Next.js 14+ with App Router
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **UI Components:** shadcn/ui
+- **Fonts:** Geist Sans & Geist Mono
+- **Icons:** Lucide React
 
-Your project is live at:
+## Getting Started
 
-**[https://vercel.com/ayanayvleos-projects/v0-snatch-business-name-finder](https://vercel.com/ayanayvleos-projects/v0-snatch-business-name-finder)**
+### Prerequisites
 
-## Build your app
+- Node.js 18+ 
+- npm, yarn, or pnpm
 
-Continue building your app on:
+### Installation
 
-**[https://v0.dev/chat/projects/xt1dNduYHtt](https://v0.dev/chat/projects/xt1dNduYHtt)**
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/yourusername/snatch-business-name-finder.git
+cd snatch-business-name-finder
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+\`\`\`
+
+4. Open [snatchthatname.com](https://snatchthatname.com) in your browser to see the application.
+
+## Project Structure
+
+\`\`\`
+snatch-business-name-finder/
+├── app/                    # Next.js app directory
+│   ├── globals.css        # Global styles
+│   └── layout.tsx         # Root layout
+├── components/            # Reusable components
+│   ├── ui/               # shadcn/ui components
+│   └── theme-provider.tsx # Theme provider
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions
+└── public/               # Static assets
+\`\`\`
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
 ## How It Works
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1. **Generate Names** - Enter keywords related to your business
+2. **Get Suggestions** - AI generates creative, brandable name options
+3. **Check Availability** - Instantly verify domain availability
+4. **Save Favorites** - Keep track of names you love
+5. **Launch Your Brand** - Choose the perfect name and get started
+
+## Features in Detail
+
+### Name Generation
+- Industry-specific algorithms
+- Creative wordplay and combinations
+- Brandable and memorable suggestions
+- Multiple naming styles and approaches
+
+### Domain Checking
+- Real-time availability verification
+- Multiple TLD options (.com, .net, .org, etc.)
+- Alternative suggestions for taken domains
+- Pricing information for available domains
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For questions or technical issues, please open an issue or contact the maintainers.
+
+---
+
+Built to help entrepreneurs find the perfect business name
